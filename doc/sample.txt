@@ -1,0 +1,34 @@
+' Sample file for testing PCBID file parser
+' Keep sorted in ascending order according to K85 Charset
+' Syntax: `aaaapppp    ' Project name @ Author name (ISO3166-1-A2 country code)`
+
+ 
+I
+}H
+}H 
+}HI
+}HbHgv
+}HbHgv 
+}HbHgvI
+}HbHgv0?0
+}HbHgv0? 
+}HbHgv0? I
+}HbHgv0? '
+}HbHgv0? ' 
+}HbHgv0? ' @
+}HbHgv0? ' Foobar Project
+}HbHgv0? ' Foobar Project @
+}HbHgv0? ' Foobar Project @ Foobar Inc
+}HbHgv0? ' Foobar Project @ Foobar Inc (
+}HbHgv0? ' Foobar Project @ Foobar Inc ( 
+}HbHgv0? ' Foobar Project @ Foobar Inc (#
+}HbHgv0? ' Foobar Project @ Foobar Inc (Z
+}HbHgv0? ' Foobar Project @ Foobar Inc (##
+}HbHgv0? ' Foobar Project @ Foobar Inc (ZZ
+}HbHgv0? ' Foobar Project @ Foobar Inc (##)
+}HbHgv0?    ' Foobar Project @ Foobar Inc (ZZ)
+}HbH>]FQ	' Another Foobar Project @ Foobar Inc (ZZ)
+}HbH$@kQ  	 ' ~󷖯ƿ%￞📺􄟨Ӆ򧯞ᛧˍ򂫥㇋h}拎«ʅ؇Ȩ亮 @ Foobar Inc (ZZ)
+}HbH0100    ' 100 @ Foobar Inc (ZZ)
+}HbH0000    ' 0 @ Foobar Inc (ZZ)
+}HbH2345    ' 2345 @ Foobar Inc (ZZ)
