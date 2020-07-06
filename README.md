@@ -187,7 +187,7 @@ echo -n "Foobar Inc" | sha256sum
 
 PCBID Tools uses [Semantic Versioning](http://semver.org/ "Semantic Versioning"). For the versions available, see the [tags on this repository](https://github.com/akornsys-rdi/pcbid-tools/releases).
 
-PCBID Tools version [1.2](#) is the latest stable version.
+PCBID Tools version [1.2.0](https://github.com/akornsys-rdi/pcbid-tools/releases/tag/v1.2.0) is the latest stable version.
 
 The version of PCBID Tools refers to the version of `pcbid-generator`, for the other elements of the set of tools no changes are contemplated and they are published as a complement to `pcbid-generator`.
 
