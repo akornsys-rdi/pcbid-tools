@@ -216,7 +216,7 @@ All changes made prior to version 1.2.0 were made as part of development and hav
 
 ## :heart: Community and contributions
 
-[![Donate using Liberapay](https://github.com/akornsys-rdi/skeleton/raw/master/doc/img/liberapay-donate.png)](https://liberapay.com/RileyStarlight/donate)
+[![Donate using Liberapay](https://github.com/akornsys-rdi/pcbid-tools/raw/master/doc/img/liberapay-donate.png)](https://liberapay.com/RileyStarlight/donate)
 
 Contributions are always welcome!
 
