@@ -193,6 +193,10 @@ The version of PCBID Tools refers to the version of `pcbid-generator`, for the o
 
 All changes made prior to version 1.2.0 were made as part of development and have not been published.
 
+### V1.3.0
+
+- Created `pcbid-card` tool.
+
 ### V1.2.0
 
 - Added file management and verification features.
