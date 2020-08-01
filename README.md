@@ -1,6 +1,7 @@
 # PCBID Tools
 
 ![Akornsys RDI](https://github.com/akornsys-rdi/pcbid-tools/raw/master/doc/img/akornsys-logo.png)
+![OSHW PDC](https://github.com/akornsys-rdi/pcbid-tools/raw/master/doc/img/oshw-logo.png)
 
 ## PCBID management tools
 
