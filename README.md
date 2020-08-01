@@ -17,6 +17,10 @@ PCBID Tools can be obtained on GitHub: [PCBID Tools](https://github.com/akornsys
 
 This project may contain some of the following sections:
 
+### Hardware
+
+- `/brd/` EDA designs, schematics, PCBs, libraries, datasheets and manufacturing files such as gerber, BoM and PDF.
+
 ### Software
 
 - `/src/` Firmware or software files, source and compiled.
@@ -183,6 +187,21 @@ It does not generate the hash from a text string, so it has to be generated befo
 echo -n "Foobar Inc" | sha256sum
 ```
 
+### PCBID Card
+
+`pcbid-card` is a PCB for example of use of PCBID. It contains sample elements of PCBID and common elements in PCB cards:
+
+- Ruler: Two-sided 85 mm (3.346 inch) ruler, with a scale in millimeters and inches, with a resolution of half a millimeter and 25 thousand.
+- URL: URL links to relevant PCBID web addresses.
+- 2D Barcode: PCBID table in datamatrix and text format with samples at different sizes in positive and negative.
+- PCB Art Palette: Palette of layers of PCB materials.
+- Lanyard hole: Side hole in the card to insert a lanyard.
+- Trace width sample: Layouts of traces with different trace and clearance sizes.
+- Trace and via table: Table that crosses the current capacity, maximum voltage and resistance with the size of traces and via for usual types of layouts.
+- Silkscreen size: Sample of different silkscreen sizes, with their common uses.
+- K85 Charset: The character set of K85 at different screen sizes to check its readability.
+- Maze layout: Provides a background with horizontal and vertical traces to simulate the readability of silkscreen on a conventional PCB. The trace that draws this layout has a width of 250µm and a length of 7050mm.
+
 ## :book: Version history
 
 PCBID Tools uses [Semantic Versioning](http://semver.org/ "Semantic Versioning"). For the versions available, see the [tags on this repository](https://github.com/akornsys-rdi/pcbid-tools/releases).
@@ -231,6 +250,12 @@ Please :star: or watch this repository if this project helped you! You can also 
 ## :scroll: Copyright & License
 
 Copyright © 2020 RileyStarlight
+
+### Hardware
+
+[![Cern OHL-S 2](https://github.com/akornsys-rdi/pcbid-tools/raw/master/doc/img/cernohl-logo.png)](https://cern.ch/cern-ohl)
+
+The hardware of this project is licensed under CERN-OHL-S 2, see the [`LICENSE.OHLS2.txt`](LICENSE.OHLS2.txt) file for details.
 
 ### Software
 
