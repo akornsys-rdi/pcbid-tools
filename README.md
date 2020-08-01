@@ -10,7 +10,7 @@ PCBID Tools is a set of different tools oriented to the management of PCBID uniq
 PCBID Tools contains the following tools:
 
 - `pcbid-generator`: PCBID numbering generator. Edit and add entries to `projects.txt`.
-- `algorithm-test`: Documentation of dispersion tests.
+- `pcbid-algorith-test`: Documentation of dispersion tests.
 
 ## :open_file_folder: Repository content
 
@@ -178,9 +178,9 @@ Using the `dmtxwrite` utility, it is possible to pipe the output of the PCBID ge
 ./pcbid-generator --author-name 'Foobar Inc' --country ZZ --project-name 'Foobar Project' --module 1 --release 1 --date 2020-04-11 -r -q | dmtxwrite -m 10 -d 10 -s s -o pcbid-dm.png
 ```
 
-### Algorithm-test
+### PCBID Algorithm Test
 
-`algorithm-test` was originally created to test the dispersion of different hash transformation algorithms. It currently implements the step-by-step process of creating the identifier from a hash. It can be used to manually generate an identifier field from a hash, or to check the results of each step in creating your own tools.
+`pcbid-algorith-test` was originally created to test the dispersion of different hash transformation algorithms. It currently implements the step-by-step process of creating the identifier from a hash. It can be used to manually generate an identifier field from a hash, or to check the results of each step in creating your own tools.
 
 It does not generate the hash from a text string, so it has to be generated beforehand. On GNU/Linux systems it can be generated using:
 
@@ -216,6 +216,7 @@ All changes made prior to version 1.2.0 were made as part of development and hav
 ### V1.3.0
 
 - Created `pcbid-card` tool.
+- Renamed `algorith-test` to `pcbid-algorith-test`.
 
 ### V1.2.0
 
@@ -236,7 +237,7 @@ All changes made prior to version 1.2.0 were made as part of development and hav
 ### V1.0.0
 
 - Created `pcbid-generator` program with interactive mode.
-- Created `algorithm-test` tool.
+- Created `pcbid-algorith-test` tool.
 
 ## :heart: Community and contributions
 
